@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Telpekci",
+  "main": "server",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Telpekci_test"
+  ],
+  "author": "G.Seyit",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^3.1.1"
+  }
+}

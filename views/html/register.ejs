@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <%- include('header'); %>
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" action="/Api/Registration" method="POST">
+      <p class="display-4 text-center" style="color: black;">Registration</p>
+      <input type="text" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter name">
+      <br>
+      <input type="password" class="form-control" name="password" id="exampleInputEmail1" aria-describedby="passowrdHelp" placeholder="Enter password">
+      <br>
+      <input type="text" class="form-control" name="username" id="exampleInputEmail1" aria-describedby="usernameHelp" placeholder="Enter username">      
+      <br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
